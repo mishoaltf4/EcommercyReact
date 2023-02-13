@@ -1,0 +1,69 @@
+.home{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../../imgs/home-bike.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.home-filter{
+    background-color: transparent;
+    background-image: linear-gradient(90deg, rgba(25, 25, 25, 0.67) 50%, rgba(65, 117, 252, 0.67) 50%);
+    height: 100vh;
+    transition: background .3s,border-radius .3s,opacity .3s;
+}
+
+.home-inner{
+    padding-top: 15%;
+}
+
+.home-inner__cont{
+    opacity: 1;
+    width: 50%;
+    height: 100%;
+    padding: 10px 0;
+    color: #fff;
+}
+
+.home-inner__cont{
+    font-family: 'Rubik', sans-serif;
+    letter-spacing: 2px;
+}
+
+.home-inner__cont h2{
+    margin-bottom: 10px;
+}
+
+.home-inner__cont h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.home-inner__cont h4{
+    margin-bottom: 15px;
+}
+
+.home-inner__cont ul{
+    margin-left: 25px;
+}
+
+.home-inner__cont li{
+    list-style-type: circle;
+}
+
+.home-inner__cont button{
+    margin-top: 25px;
+    width: 150px;
+    height: 45px;
+    background-color: #4175fc;
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.home-inner__cont button:hover{
+    background-color: #084af3;
+}
